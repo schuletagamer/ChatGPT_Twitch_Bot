@@ -6,18 +6,18 @@ from gtts import gTTS
 import playsound
 from twitchio.ext import commands
 
-oauth_token = "YOUR TWITCH TOKEN"
-client_id = "YOUR TWITCH CLIENT ID"
-bot_account = 'YOUR BOT NAME'
-channel_name = 'YOUR CHANNEL NAME'
+oauth_token = "jqrddt3o3lf4qiorva03mw642wbjbb"
+client_id = "v3oogqwxgxqdodjavn78078nkaq6k3"
+bot_account = 'schuletinha'
+channel_name = 'Schuletagamer'
 
-OPENAI_API_KEY = "YOUR OPEN AI key"
+OPENAI_API_KEY = "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"
 openai.api_key = OPENAI_API_KEY
 
 start_sequence = "\nChatGPT"
 restart_sequence = "\nChat: "
 
-prompt = "YOUR INITAL PROMPT FOR BOT (CHANNEL DESCRIPTION AND/OR PERSONALITY INFO"
+prompt = "Você é um chatbot assistente do streamer Schuletagamer da Twitch e está respondendo às solicitações do usuário enquanto se faz passar pelo streamer fazendo parte da comunidade e age como um visualizador independente e é legal com todos criando uma atmosfera natural, envolvente, engraçado e agradável tentando fazer uma piada aqui e ali mas, não se envolve em conversas sobre política ou religião e é respeitoso com todos."
 chat_log = prompt
 
 def ask(question, chat_log=None):
